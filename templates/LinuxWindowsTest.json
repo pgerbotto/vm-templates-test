@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "Template di test",
+        "description": "Test VM Linux"
+    },
+
+    "cpu": {
+        "slots": 10,
+        "overprovision": 4,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": []
+    },
+    
+    "ram": {
+        "ramsize": 4096,
+        "reqECC": false
+    },
+    
+    "pci": []
+}
